@@ -1,0 +1,289 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans', sans-serif;
+}
+
+.wraper {
+    width: 1100px;
+    margin: auto;
+    position:relative;
+}
+
+.by {
+    text-decoration: none;
+    margin-top: -12px;
+    font-size: 15px;
+    font-family: courier;
+    font-weight: bold;
+}
+
+.by a {
+    color: salmon;
+}
+
+
+.logo a {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: corier;
+    color: #90E0EF;
+}
+
+.menu{
+    float:right;
+    margin-top: -50px;
+}
+
+nav {
+    height: 100%;
+    margin: auto;
+    display: flex;
+    position: sticky;
+    line-height: 60px;
+    position: -webkit-sticky;
+    top: 0px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid salmon;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding:0px;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left ;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: auto;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    margin: auto;
+    display:flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+ 
+}
+
+
+.kolom .deskripsen {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color:#90E0EF;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800px;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #90E0EF;
+    height: 100%;
+    line-height: 50px;
+}
+
+.kolom .isi{
+    margin-top: -275px;
+}
+
+
+.signup {
+    background-color: #90E0EF;
+    border-radius: 20px;
+    margin-top: 15px;
+    padding: 5px 8px 5px 8px;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.signup:hover {
+    background: #24A19C;
+    text-decoration: none;
+}
+
+
+.lihat {
+    background-color: #24A19C;
+    border-radius: 20px;
+    margin-top:15px;
+    padding:5px 8px 5px 8px;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.lihat:hover {
+    background: #90E0EF;
+}
+
+
+.kolom .selogan {
+    font-family: 'comic sans ms';
+    color: #90E0EF;
+}
+
+
+p {
+    margin-top: 15px;
+}
+
+
+.kolom .konten{
+    margin-top: -230px;
+}
+
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+
+.kontak .deskripsi{
+    font-family: 'comic sans ms';
+    color: #90E0EF;
+}
+
+.list-gambar {
+    margin-top: 40px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kumpulan {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kumpulan img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kumpulan p {
+    font-size: 25px;
+    font-family: 'comic sans ms';
+    color: #24A19C;
+}
+
+.suportby {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.logo-perusahaan {
+    margin-top: 50px;
+}
+
+
+
+.list-logo {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-logo {
+    width:20%;
+    margin: 0 auto;
+}
+
+.list-logo img {
+    width: 90px;
+    border-radius: 50%;
+}
+
+#contact {
+    background: #ECECEC;
+    padding: 50px 0px 50px 0px;
+}
+
+
+.contak {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.kolom-contak {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    line-height: 50px;
+}
+
+.fluter 
+ {
+    margin-top: 100px;
+    background: white;
+    padding: 10px;
+
+}
+
+
+.copy {
+   margin-top: -20px;
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    
+}
+
+
+/*clearfix*/
+
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+
+    
+}
+.cf:after {
+    clear:both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+    zoom:1;
+}
